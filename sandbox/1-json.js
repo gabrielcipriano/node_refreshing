@@ -12,4 +12,6 @@ const dataJSON = fs.readFileSync('1-json.json').toString();
 
 const data = JSON.parse(dataJSON);
 
+debugger;
+
 console.log(data == book);
